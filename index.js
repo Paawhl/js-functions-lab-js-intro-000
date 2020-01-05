@@ -18,3 +18,10 @@ function happyHolidayTo(holiday, name) {
 
 happyHolidayTo('Independence Day', 'you')
 happyHolidayTo('New Year', 'everyone')
+
+function holidayCountdown(holiday, days) {
+  return `It\ s ${days} days until ${holiday}!`
+}
+
+holidayCountdown("Mother's Day", 20)
+holidayCountdown("Father's Day", 120)
