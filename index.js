@@ -10,3 +10,11 @@ function happyHolidaysTo(name) {
 
 happyHolidaysTo('you')
 happyHolidaysTo('everyone')
+
+
+function happyHolidaysTo(holiday, name) {
+  return `Happy ${holiday}, ${name}!`
+}
+
+happyHolidaysTo('Independence Day', 'you')
+happyHolidaysTo('New Year', 'everyone')
